@@ -29,8 +29,8 @@ export default function Scene({ ...props }) {
           makeDefault={true}
           far={100000}
           near={70}
-          fov={15.2}
-          position={[-141.75, 172.51, 340.86]}
+          fov={17}
+          position={[-120.75, 159.51, 290.86]}
           rotation={[-0.28, -0.42, -0.12]}
           scale={1}
         />
@@ -107,7 +107,7 @@ export default function Scene({ ...props }) {
           shadow-camera-bottom={-674.016}
           position={[200, 300, 300]}
         />
-        <hemisphereLight name="Default Ambient Light" intensity={0.75} color="#eaeaea" />
+        <hemisphereLight name="Default Ambient Light" intensity={0.45} color="#eaeaea" />
       </group>
     </>
   )
