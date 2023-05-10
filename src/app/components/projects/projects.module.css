@@ -1,31 +1,31 @@
-.main {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	overflow: hidden;
+.card {
+	margin: 2rem 6vw;
 }
 
-.cards_wrapper {
+.card section {
+	background-attachment: fixed;
+	background-position: top;
+	height: 60vh;
+	width: 20vw;
 	display: flex;
-	overflow-x: auto;
-	width: 100%;
+	justify-content: center;
+	align-items: center;
 }
+
 .bg_kaspian {
 	background-size: cover;
 	background-image: url("../../../../public/slide.png");
 }
 
-.parallax1 {
+.bg_o3de {
 	background-size: cover;
 	background-image: url("https://images.unsplash.com/photo-1610128114197-485d933885c5?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjIzOTA2Nzc&ixlib=rb-1.2.1&q=80");
 }
 
-.parallax2 {
+.bg_fairandsquare {
 	background-image: url("https://images.unsplash.com/photo-1562095241-8c6714fd4178?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjIzOTA5OTg&ixlib=rb-1.2.1&q=80");
 }
 
-.parallax3 {
+.bg_wackychaty {
 	background-image: url("https://images.unsplash.com/photo-1543722530-d2c3201371e7?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjIzOTExOTg&ixlib=rb-1.2.1&q=80");
 }
