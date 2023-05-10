@@ -1,0 +1,41 @@
+.card {
+	margin: 2rem 6vw;
+}
+
+.card section {
+	background-attachment: fixed;
+	background-position: top;
+	height: 60vh;
+	width: 20vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bg_kaspian {
+	background-size: cover;
+	background-image: url("https://res.cloudinary.com/dvbfjvpo9/image/upload/v1683731259/portfolio/Slide_okf11u.png");
+}
+
+.bg_breathein {
+	background-size: cover;
+	background-image: url("https://res.cloudinary.com/dvbfjvpo9/image/upload/v1683732653/portfolio/Screenshot_2023-05-10_at_17.30.37_k8wtis.png");
+}
+.bg_o3de {
+	background-size: cover;
+	background-image: url("https://res.cloudinary.com/dvbfjvpo9/image/upload/v1683731507/portfolio/Screenshot_2023-05-10_at_17.11.27_a5fast.png");
+}
+
+.bg_fairandsquare {
+	background-image: url("https://res.cloudinary.com/dvbfjvpo9/image/upload/v1683731792/portfolio/Layout_idea_znfndw.png");
+	background-size: 80%;
+}
+
+.bg_wackychaty {
+	background-image: url("https://res.cloudinary.com/dvbfjvpo9/image/upload/v1683731454/portfolio/Chaty-wacky_qdhtv6.png");
+	background-size: cover;
+}
+.bg_spacedesign {
+	background-image: url("https://res.cloudinary.com/dvbfjvpo9/image/upload/v1683731715/portfolio/landing-page_fyoy9w.png");
+	background-size: cover;
+}
