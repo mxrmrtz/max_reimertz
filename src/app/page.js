@@ -2,15 +2,19 @@
 
 import styles from "./page.module.css";
 import HelixCanvas from "./components/3dhero/HelixCanvas";
-import HeroText from "./components/Paragrapghes/HeroText";
+import Parallax from "./components/projects/Parallax";
 
 export default function Home() {
 	return (
-		<main className={styles.main}>
-			<div className={styles.hero_container}>
-				<HelixCanvas />
-			<HeroText/>
-			</div>
-		</main>
+		<>
+			<main className={styles.main}>
+				<div className={styles.hero_container}>
+					<HelixCanvas />
+				</div>
+			</main>
+			<section className={styles.projects_container}>
+				<Parallax />
+			</section>
+		</>
 	);
 }
