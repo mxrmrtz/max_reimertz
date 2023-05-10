@@ -1,0 +1,57 @@
+{
+	"companies": ["kaspian", "03DE", "HiFi", "Fair & Square", "dsadasdad"],
+	"projects": [
+		{
+			"id": 1,
+			"name": "kaspian",
+			"role": "design-lead",
+			"type": "design",
+			"about": "dasdwadawdawdawdawdawdawdawdawdawdawdawd",
+			"tools": ["figma", "user-testing"],
+			"background": "./Slide 7.png"
+
+		},
+		{
+			"id": 2,
+			"name": "o3de",
+			"role": "designer",
+			"type": "design",
+			"about": "dasdwadawdawdawdawdawdawdawdawdawdawdawd",
+			"tools": ["figma", "hugo", "after effects"]
+		},
+		{
+			"id": 3,
+			"name": "breathe in",
+			"role": "motion designer",
+			"type": "developer",
+			"about": "dasdwadawdawdawdawdawdawdawdawdawdawdawd",
+			"tools": ["figma", "next.js"],
+			"background": "./gas planet.png"
+			
+		},
+		{
+			"id": 4,
+			"name": "Wacky Chaty",
+			"role": "developer",
+			"type": "design",
+			"about": "dasdwadawdawdawdawdawdawdawdawdawdawdawd",
+			"tools": ["figma", "react.js", "postgres"]
+		},
+		{
+			"id": 5,
+			"name": "space design",
+			"role": "designer",
+			"type": "design",
+			"about": "dasdwadawdawdawdawdawdawdawdawdawdawdawd",
+			"tools": ["figma", "react.js", "postgres"]
+		},{
+			"id": 6,
+			"name": "Fair and Square",
+			"role": "lead-developer",
+			"type": "developer",
+			"about": "dasdwadawdawdawdawdawdawdawdawdawdawdawd",
+			"tools": ["figma", "next.js"]
+		}
+
+	]
+}
