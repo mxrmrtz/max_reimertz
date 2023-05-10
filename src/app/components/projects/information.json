@@ -1,0 +1,29 @@
+{
+	"companies": ["kaspian", "03DE", "HiFi", "Fair & Square", "dsadasdad"],
+	"projects": [
+		{	"id": 1,
+			"name": "kaspian",
+			"role": ["team-lead", "design-lead"],
+			"type": "design",
+			"about": "dasdwadawdawdawdawdawdawdawdawdawdawdawd"
+		},
+		{	"id": 2,
+			"name": "o3de",
+			"role": ["designer", "design-lead"],
+			"type": "design",
+			"about": "dasdwadawdawdawdawdawdawdawdawdawdawdawd"
+		},
+		{	"id": 3,
+			"name": "Fair and Square",
+			"role": ["Team-lead", "lead-developer"],
+			"type": "developer",
+			"about": "dasdwadawdawdawdawdawdawdawdawdawdawdawd"
+		},
+		{	"id": 4,
+			"name": "Wacky Chaty",
+			"role": ["designer", "design-lead"],
+			"type": "design",
+			"about": "dasdwadawdawdawdawdawdawdawdawdawdawdawd"
+		}
+	]
+}

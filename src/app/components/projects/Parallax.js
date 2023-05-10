@@ -22,29 +22,14 @@ const Parallax = () => {
 		};
 	}, []);
 
-	return (<>
-	 <main className={styles.main}>
-<div className={styles.cards_wrapper}>
- 		<div className={styles.card}>
- 			<section className={styles.bg_kaspian}>
- 			<h3>kaspian</h3>
- 			</section>
- 		</div>
- 		<div className={styles.card}>
- 			<section className={styles.parallax1}>
- 				<h3>sadasdas</h3>
- 			</section>
- 		</div>
- 		<div className={styles.card}>
- 			<section className={styles.parallax2}></section>
- 		</div>
- 		<div className={styles.card}>
- 			<section className={styles.parallax3}></section>
- 		</div>
- 	</div>
- </main>
-	{/* <Projects/> */}
-	</>);
+	return (
+		<>
+			<main className={styles.main}>
+				<div className={styles.cards_wrapper}>
+						<Projects  />
+				</div>
+			</main>
+		</>
+	);
 };
 export default Parallax;
-
