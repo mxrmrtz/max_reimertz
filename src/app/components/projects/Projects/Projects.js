@@ -23,7 +23,7 @@ const Projects = ({setProjectData,setIsShowing}) => {
 							className={styles.card}
 						>
 							<section className={styles[className]}>
-								<h3>{project.name}</h3>
+								<h3 className={styles.project_name}>{project.name}</h3>
 							</section>
 						</div>
 					</>

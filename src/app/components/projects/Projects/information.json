@@ -9,7 +9,6 @@
 			"about": "dasdwadawdawdawdawdawdawdawdawdawdawdawd",
 			"tools": ["figma", "user-testing"],
 			"background": "./Slide 7.png"
-
 		},
 		{
 			"id": 2,
@@ -17,7 +16,8 @@
 			"role": "designer",
 			"type": "design",
 			"about": "dasdwadawdawdawdawdawdawdawdawdawdawdawd",
-			"tools": ["figma", "hugo", "after effects"]
+			"tools": ["figma", "hugo", "after effects"],
+			"background": "./fusk.png"
 		},
 		{
 			"id": 3,
@@ -27,7 +27,6 @@
 			"about": "dasdwadawdawdawdawdawdawdawdawdawdawdawd",
 			"tools": ["figma", "next.js"],
 			"background": "./gas planet.png"
-			
 		},
 		{
 			"id": 4,
@@ -35,23 +34,17 @@
 			"role": "developer",
 			"type": "design",
 			"about": "dasdwadawdawdawdawdawdawdawdawdawdawdawd",
-			"tools": ["figma", "react.js", "postgres"]
+			"tools": ["figma", "react.js", "postgres"],
+			"background": "./chaty.png"
 		},
 		{
 			"id": 5,
-			"name": "space design",
+			"name": "volvo",
 			"role": "designer",
 			"type": "design",
 			"about": "dasdwadawdawdawdawdawdawdawdawdawdawdawd",
-			"tools": ["figma", "react.js", "postgres"]
-		},{
-			"id": 6,
-			"name": "Fair and Square",
-			"role": "lead-developer",
-			"type": "developer",
-			"about": "dasdwadawdawdawdawdawdawdawdawdawdawdawd",
-			"tools": ["figma", "next.js"]
+			"tools": ["figma", "react.js", "postgres"],
+			"background": "./volvo.png"
 		}
-
 	]
 }
