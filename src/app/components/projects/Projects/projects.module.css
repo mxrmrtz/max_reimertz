@@ -1,15 +1,19 @@
 .card {
-	margin: 2rem 2vw;
+	margin: 2rem 1vw;
+	width: 100%;
+	
 }
+
 
 .card section {
 	background-attachment: fixed;
 	background-position: top;
 	height: 60vh;
-	width: 20vw;
+	width: 18vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 }
 
 .project_name{
@@ -32,8 +36,8 @@
 }
 
 .bg_volvo{
-	background-image: url("https://res.cloudinary.com/dvbfjvpo9/image/upload/v1683739671/portfolio/Achivment_screen_hqc15y.svg");
-	background-size: 40%;
+	background-image: url("../../../../../public/volvo.png");
+	background-size: cover;
 }
 
 .bg_wackychaty {

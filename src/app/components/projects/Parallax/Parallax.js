@@ -7,7 +7,6 @@ const Parallax = ({setProjectData,setIsShowing}) => {
 	useEffect(() => {
 		const handleScroll = () => {
 			const scrollX = window.scrollX;
-			console.log(scrollX);
 			const cards = document.getElementsByClassName("card");
 
 			Array.from(cards).forEach((card) => {

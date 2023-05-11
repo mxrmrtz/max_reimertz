@@ -1,3 +1,7 @@
+.main::-webkit-scrollbar{
+    display: none;
+  }
+
 .main {
 	display: flex;
 	flex-direction: column;
@@ -8,11 +12,15 @@
 	
 }
 
+.cards_wrapper::-webkit-scrollbar {
+    width: 0 !important
+    }
+
 .cards_wrapper {
 	display: flex;
 	overflow-x: auto;
 	width: 100%;
-	padding-left: 35vw;
-	padding-right: 10vw;
+	padding: 0 35rem;
+	
 	
 }

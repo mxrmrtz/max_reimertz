@@ -11,18 +11,20 @@ export default function Home() {
 	const [isShowing, setIsShowing] = useState(false);
 	return (
 		<>
-			<main className={styles.main}>
-				<div className={styles.hero_container}>
-					<HelixCanvas />
-				</div>
-			</main>
 			{!isShowing ? (
-				<section className={styles.projects_container}>
-					<Parallax
-						setIsShowing={setIsShowing}
-						setProjectData={setProjectData}
-					/>
-				</section>
+				<>
+					<main className={styles.main}>
+						<div className={styles.hero_container}>
+							<HelixCanvas />
+						</div>
+					</main>
+					<section className={styles.projects_container}>
+						<Parallax
+							setIsShowing={setIsShowing}
+							setProjectData={setProjectData}
+						/>
+					</section>
+				</>
 			) : (
 				<section className={styles.projects_information}>
 					<ProjectsInformation
