@@ -1,36 +1,31 @@
-import React, { useState } from "react";
+"use client";
+
 import information from "../../../../../information.json";
 import styles from "../../../styles/projects.module.css";
+import Link from "next/link";
 
-const Projects = ({ setProjectData, setIsShowing }) => {
+const Projects = () => {
 	const { projects } = information;
-	const scrollToTop = () => {
-		window.scrollTo({ top: 0 });
-	};
+	console.log(projects);
 
 	return (
 		<>
-			{projects.map((project) => {
-				const className = `bg_${project.name.replace(/\s/g, "").toLowerCase()}`;
-				const [clicked, setClicked] = useState(false);
-				return (
-					<div
-						onClick={() => {
-							setClicked(!clicked);
-							setIsShowing(true);
-							setProjectData(project);
-							scrollToTop();
-						}}
-						key={project.id}
-						className={styles.card}
-					>
-						<div className={styles.project_container}>
-						<h3 className={styles.project_name}>{project.name}</h3>
-						<section className={styles[className]}></section>
-						</div>
-					</div>
-				);
-			})}
+		
+				{projects.map((project) => {
+					const className = `bg_${project.name
+						.replace(/\s/g, "")
+						.toLowerCase()}`;
+					return (
+						<Link href={`projects/${project.id}`} key={project.name}>
+							<div className={styles.card}>
+								<div className={styles.project_container}>
+									<h3 className={styles.project_name}>{project.name}</h3>
+									<section className={styles[className]}></section>
+								</div>
+							</div>
+						</Link>
+					);
+				})}
 		</>
 	);
 };
