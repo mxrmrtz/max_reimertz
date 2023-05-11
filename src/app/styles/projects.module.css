@@ -37,7 +37,7 @@
 
 .bg_breathein {
 	background-size: cover;
-	background-image: url("../../../../../public/gas planet.png");
+	background-image: url("../../../public/gas planet.png");
 }
 .bg_o3de {
 	background-size: cover;
@@ -45,7 +45,7 @@
 }
 
 .bg_volvo{
-	background-image: url("../../../../../public/volvo.png");
+	background-image: url("../../../public/volvo.png");
 	background-size: cover;
 }
 
