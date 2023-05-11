@@ -23,7 +23,7 @@ const Parallax = ({setProjectData,setIsShowing}) => {
 
 	return (
 		<>
-		
+			
 			<main className={styles.main}>
 				<div className={styles.cards_wrapper}>
 						<Projects setIsShowing={setIsShowing} setProjectData={setProjectData}/>

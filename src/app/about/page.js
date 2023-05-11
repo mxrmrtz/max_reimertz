@@ -1,25 +1,29 @@
 "use client";
 
-import AnimationWrapper from "../components/AnimationWrapper";
 import styles from "../styles/about.module.css";
-import { easeInOut, motion as m } from "framer-motion";
+import Link from "next/link";
 
 
 const About = () => {
 	return (
-		<m.div
-		initial={{ y: "100%" }}
-			animate={{ y: "0%" }}
-			transition={{ duration: 0.75, ease: "easeOut" }}
-			exit={{opacity:1}}
-			className={styles.animation}
-		>
-			<div className={styles.container}>
-				<h1>sadas</h1>
-				<h3>asdasdasdasdas</h3>
-				<p>sadasdasdasdasdasdasdasd</p>
-			</div>
-		</m.div>
+	
+			<main className={styles.about_main}>
+			<section className={styles.information} >
+				<div className={styles.personal_info}>
+					<div className={styles.personal_wrapper}>
+				<h1>Maximiliam Reimertz</h1>
+				<h3>smth smth</h3>
+				<div className={styles.contact_info}>
+					<Link href={"https://github.com/mxrmrtz"}>GitHub</Link>
+					<Link href={"https://www.linkedin.com/in/max-reimertz-83a272221/"}>Linkdin</Link>
+					<Link href={"https://twitter.com/mxrmrtz"}>Twitter</Link>
+					<Link href={"https://www.instagram.com/mxrmrtz/"}>Instagram</Link>
+					</div>
+				</div>
+				</div>
+		
+			</section>
+			</main>
 	);
 };
 

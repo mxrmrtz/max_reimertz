@@ -1,6 +1,22 @@
 import styles from "../../../styles/projectsinformation.module.css";
+import { useRef, useEffect } from "react";
+import SimpleParallax from "simple-parallax-js";
+
 
 const ProjectsInformation = ({ projectData, setIsShowing }) => {
+	const parallaxRef = useRef(null);
+
+	useEffect(() => {
+	  const parallaxInstance = new SimpleParallax(parallaxRef.current, {
+		scale: 1.5, // Adjust the scale value as needed
+		delay:0.1,
+		transition: 'cubic-bezier(0,0,0,1)'
+
+	  });
+	  return () => {
+		parallaxInstance.destroy(); // Clean up the parallax effect when the component unmounts
+	  };
+	}, []);
 	const images = projectData.examples;
 	console.log(images);
 	return (
@@ -23,8 +39,8 @@ const ProjectsInformation = ({ projectData, setIsShowing }) => {
 						<p className={styles.tools}>{projectData.tools.join(", ")}</p>
 					</section>
 				</div>
-				<div className={styles.background}>
-					<img src={projectData.background} />
+				<div ref={parallaxRef} className={styles.background}>
+				<img src={projectData.background} alt="Background" />
 				</div>
 			</main>
 			{images.length > 0 && (

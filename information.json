@@ -2,7 +2,7 @@
 	"companies": ["kaspian", "03DE", "HiFi", "Fair & Square", "dsadasdad"],
 	"projects": [
 		{
-			"id": 1,
+			"id": 0,
 			"name": "kaspian",
 			"role": "design-lead",
 			"type": "design",
@@ -17,7 +17,7 @@
 			]
 		},
 		{
-			"id": 2,
+			"id": 1,
 			"name": "o3de",
 			"role": "designer",
 			"type": "design",
@@ -27,7 +27,7 @@
 			"examples": []
 		},
 		{
-			"id": 3,
+			"id": 2,
 			"name": "breathe in",
 			"role": "motion designer",
 			"type": "Motion grapgics",
@@ -37,7 +37,7 @@
 			"examples": []
 		},
 		{
-			"id": 4,
+			"id": 3,
 			"name": "Wacky Chaty",
 			"role": "developer",
 			"type": "design",
@@ -48,7 +48,7 @@
 
 		},
 		{
-			"id": 5,
+			"id": 4,
 			"name": "volvo",
 			"role": "designer",
 			"type": "design",

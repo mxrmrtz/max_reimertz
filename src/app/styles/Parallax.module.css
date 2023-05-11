@@ -1,6 +1,6 @@
-.main::-webkit-scrollbar{
-    display: none;
-  }
+.main::-webkit-scrollbar {
+	display: none;
+}
 
 .main {
 	display: flex;
@@ -9,18 +9,17 @@
 	align-items: center;
 	height: 100vh;
 	overflow: hidden;
-	
 }
 
 .cards_wrapper::-webkit-scrollbar {
-    width: 0 !important
-    }
+	width: 0 !important;
+}
 
 .cards_wrapper {
 	display: flex;
 	overflow-x: auto;
 	width: 100%;
 	padding: 0 35rem;
-	
-	
 }
+
+
