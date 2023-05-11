@@ -16,8 +16,17 @@
 	
 }
 
+.project_container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
 .project_name{
-	font-size: 2rem;
+	text-transform: uppercase;
+	padding-bottom: 1rem;
+	font-size: .8rem;
 	color: #fff;
 }
 
