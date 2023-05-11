@@ -5,8 +5,9 @@
 import useSpline from '@splinetool/r3f-spline'
 import { PerspectiveCamera } from '@react-three/drei'
 
-export default function Scene({ ...props }) {
+export default function Scene({...props }) {
   const { nodes, materials } = useSpline('https://prod.spline.design/RjYUaEAmH-HCOxdF/scene.splinecode')
+
   return (
     <>
       <color attach="background" args={['#74757a']} />

@@ -6,6 +6,7 @@ import Parallax from "./components/projects/Parallax/Parallax";
 import { useState } from "react";
 import ProjectsInformation from "./components/projects/ProjectsInfromation/ProjectsInformation";
 
+
 export default function Home() {
 	const [projectData, setProjectData] = useState({});
 	const [isShowing, setIsShowing] = useState(false);

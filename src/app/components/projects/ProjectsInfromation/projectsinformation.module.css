@@ -10,14 +10,12 @@
 	color: #fff;
 	padding: 5rem 20rem;
 	background: linear-gradient(180deg, #0c0c0c 0%, #202020 100%);
-	text-transform: capitalize;
 	z-index: 1;
 
 }
 
 .text_wrapper {
 	align-items: flex-start;
-	width: 20vw;
 }
 
 .title {
@@ -31,14 +29,20 @@
 
 .role {
 	padding-top: 1rem;
+	text-transform: capitalize;
+
 }
 
 .about {
 	padding-top: 2rem;
+	width: 25vw;
 
+	
 }
 .tools {
 	padding-top: 10rem;
+	text-transform: capitalize;
+
 
 }
 
