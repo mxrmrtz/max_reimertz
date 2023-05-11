@@ -1,22 +1,21 @@
-"use client";
+
 
 import styles from "./styles/globals.css";
 import { Inter } from "next/font/google";
 import NavBar from "./components/Navbar";
 import { usePathname } from "next/navigation";
 
-import { AnimatePresence } from "framer-motion";
+export const metadata = {
+	title: "Max Reimertz",
+  };
 
 export default function RootLayout({ children }) {
-	const path = usePathname();
 
 	return (
 		<html lang="en">
 			<body>
-				<AnimatePresence initial={false}>
-					<NavBar />
-					<div key={path}>{children}</div>
-				</AnimatePresence>
+				<NavBar />
+				<div>{children}</div>
 			</body>
 		</html>
 	);

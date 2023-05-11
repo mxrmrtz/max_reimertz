@@ -1,13 +1,42 @@
-
-
-.main {
+.about_main {
 	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
 	min-height: 100vh;
 	min-width: 100%;
 	overflow-y: hidden;
-	background: linear-gradient(180deg, #0C0C0C 0%, #202020 100%);
+	background: linear-gradient(180deg, #0c0c0c 0%, #202020 100%);
 	color: #fff;
+}
+
+.information {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.personal_wrapper{padding: 6rem;}
+
+.personal_info {
+	padding: 2rem 2rem;
+	justify-content: space-between;
+}
+.personal_info h1 {
+	text-transform: uppercase;
+	width: 50%;
+	font-size: 3rem;
+	color: #fff;
+}
+.personal_info h3 {
+	text-transform: uppercase;
+	padding: 1rem 0;
+	font-size: 1rem;
+	color: #fff;
+}
+
+.contact_info {
+	display: flex;
+
+	flex-direction: column;
 }
