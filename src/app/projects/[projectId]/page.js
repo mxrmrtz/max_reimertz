@@ -2,7 +2,6 @@
 import projectData from "../../../../information.json";
 import styles from "../../styles/projectsinformation.module.css";
 import SimpleParallax from "simple-parallax-js";
-
 import { useRef, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
