@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import information from "./information.json";
-import styles from "./projects.module.css";
+import information from "../../../../../information.json";
+import styles from "../../../styles/projects.module.css";
 
 const Projects = ({ setProjectData, setIsShowing }) => {
 	const { projects } = information;

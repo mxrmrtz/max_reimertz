@@ -1,6 +1,6 @@
 "use client"
 
-import Spline from "./Spline"
+import Spline from "./Canvas"
 import { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 

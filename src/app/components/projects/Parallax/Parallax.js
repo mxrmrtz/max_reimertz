@@ -1,6 +1,6 @@
 "use client";
 import { useRef, useEffect } from "react";
-import styles from "./Parallax.module.css";
+import styles from "../../../styles/Parallax.module.css";
 import Projects from "../Projects/Projects";
 
 const Parallax = ({setProjectData,setIsShowing}) => {

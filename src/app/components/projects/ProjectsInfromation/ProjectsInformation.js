@@ -1,4 +1,4 @@
-import styles from "./projectsinformation.module.css";
+import styles from "../../../styles/projectsinformation.module.css";
 
 const ProjectsInformation = ({ projectData, setIsShowing }) => {
 	const images = projectData.examples;
