@@ -43,5 +43,11 @@
 	flex-direction: column;
 }
 .contact_info a {
-	padding: 0.5rem 0;
+	color: white;
+	opacity: .5;
+text-decoration: none;
+}
+.contact_info a:hover {
+	opacity: 1;
+
 }
