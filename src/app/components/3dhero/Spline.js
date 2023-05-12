@@ -139,7 +139,7 @@ export default function Scene({...props }) {
           shadow-camera-bottom={-1000}
           position={[200, 300, 300]}
         />
-        <hemisphereLight name="Default Ambient Light" intensity={0.75} color="#eaeaea" />
+        <hemisphereLight name="Default Ambient Light" intensity={0.55} color="#eaeaea" />
       </group>
     </>
   )
