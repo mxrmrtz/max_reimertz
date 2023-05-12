@@ -9,11 +9,11 @@ import { easeInOut, motion as m } from "framer-motion";
 export default function Home() {
 	return (
 		<>
-			{/* <main className={styles.main}>
+			<main className={styles.main}>
 						<div className={styles.hero_container}>
 							<HelixCanvas />
 						</div>
-					</main> */}
+					</main>
 			<section className={styles.projects_container}>
 				<Parallax />
 			</section>
