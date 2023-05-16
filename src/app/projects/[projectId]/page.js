@@ -17,13 +17,13 @@ const ProjectInformation = ({ params }) => {
 
 	useEffect(() => {
 	  const parallaxInstance = new SimpleParallax(parallaxRef.current, {
-		scale: 1.5, // Adjust the scale value as needed
+		scale: 1.1, 
 		delay:0.1,
 		transition: 'cubic-bezier(0,0,0,1)'
 
 	  });
 	  return () => {
-		parallaxInstance.destroy(); // Clean up the parallax effect when the component unmounts
+		parallaxInstance.destroy();
 	  };
 	}, []);
 
